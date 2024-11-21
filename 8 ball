@@ -1,0 +1,28 @@
+input.onGesture(Gesture.Shake, function () {
+    basic.clearScreen()
+    randomnumber = randint(0, 8)
+    if (randomnumber == 2) {
+        basic.showString("yes")
+    } else if (randomnumber == 1) {
+        basic.showString("no")
+    } else if (randomnumber == 3) {
+        basic.showString("i dont know")
+    } else if (randomnumber == 4) {
+        basic.showString("mabye")
+    } else if (randomnumber == 5) {
+        basic.showString("50/50")
+    } else if (randomnumber == 6) {
+        basic.showString("never")
+    } else if (randomnumber == 7) {
+        basic.showString("cant tell")
+    } else if (randomnumber == 8) {
+        basic.showString("absolutely")
+    }
+    basic.showNumber(8)
+})
+let randomnumber = 0
+basic.showString("ask question")
+basic.showNumber(8)
+basic.forever(function () {
+	
+})
